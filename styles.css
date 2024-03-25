@@ -1,0 +1,16 @@
+/* Custom CSS styles */
+.tall-section {
+  background-color: #f0f0f0; /* Set background color for tall section */
+  padding: 50px 0; /* Add padding to top and bottom */
+}
+
+/* Adjustments for mobile menu */
+.navbar-toggle {
+  float: right;
+}
+.navbar-collapse {
+  background-color: #333; /* Set background color for mobile menu dropdown */
+}
+.navbar-nav > li > a {
+  color: #fff; /* Set text color for mobile menu items */
+}

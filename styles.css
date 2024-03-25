@@ -1,0 +1,38 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif; /* Optional: Set a font family */
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 33.33%;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.section-title {
+  position: relative;
+  background-color: #f00; /* Set background color for section title */
+  color: #fff; /* Set text color for section title */
+  padding: 5px 10px;
+  border: 1px solid black;
+}
+
+.section-content {
+  margin-top: 20px;
+}
